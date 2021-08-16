@@ -23,7 +23,7 @@ public class DataJpaApplication {
         /* UserEntity entity=new UserEntity();
 		entity.setAge(23);
 		entity.setId(1572);
-		entity.setEmail("lakshmidoppani@gmail.com");
+		entity.setEmail("lakshmi123456@gmail.com");
 		entity.setName("Lakshmi");
 
 		repo.save(entity);*/
@@ -58,7 +58,7 @@ public class DataJpaApplication {
 		// To update Name field using save() method only
 		UserEntity entity1=new UserEntity();
 		entity1.setId(1613);
-		entity1.setName("Anjusha");
+		entity1.setName("Angelina");
 		entity1.setAge(30);
 		entity1.setEmail("kothi@gmail.com");
 
@@ -129,7 +129,7 @@ public class DataJpaApplication {
 		List<UserEntity> list1=repo.findByAgeAndName(23,"Gayatri");
 		System.out.println(list1);
 
-		List<UserEntity> list2=repo.findByAgeOrName(23,"Anju");
+		List<UserEntity> list2=repo.findByAgeOrName(23,"Anny");
 		System.out.println(list2);
 	}
 

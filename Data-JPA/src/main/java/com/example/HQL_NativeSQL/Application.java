@@ -18,8 +18,8 @@ public class Application {
 
         EmployeeEntity emp1=new EmployeeEntity();
         emp1.setId(105);
-        emp1.setName("Anjana");
-        emp1.setCompany("ADP");
+        emp1.setName("Anjan");
+        emp1.setCompany("ABC");
         emp1.setSalary(1000000L);
 
         repo.save(emp1);*/

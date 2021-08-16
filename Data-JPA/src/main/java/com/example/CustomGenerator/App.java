@@ -13,8 +13,8 @@ public class App {
 
         Login l=new Login();
         l.setName("LakshmiG");
-        l.setUname("Ganjikunta");
-        l.setPwd("Lakshmi@75");
+        l.setUname("Gari");
+        l.setPwd("Lakshmi@999");
 
         Login save = repo.save(l);
         System.out.println(save);
