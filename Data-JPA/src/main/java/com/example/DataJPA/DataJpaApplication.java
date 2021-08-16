@@ -122,7 +122,7 @@ public class DataJpaApplication {
 		entities.forEach(System.out::println);
 
 		//find records where age greater than or equal to 21
-		System.out.println("Records having age greater than 21 ");
+		System.out.println("Records having age greater than 21 age ");
 		List<UserEntity> entity21=repo.findByAgeGreaterThanEqual(21);
 		entity21.forEach(System.out::println);
 
